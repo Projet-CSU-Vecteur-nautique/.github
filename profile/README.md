@@ -110,4 +110,4 @@ La radiocommande dispose d'un switch à six positions représentées par six bou
 
 ## 3. Démarrage du drone
 
-Le drone est maintenant près à opérer en mode manuel.
+Le drone est maintenant prêt à opérer en mode manuel.
