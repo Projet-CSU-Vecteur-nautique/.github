@@ -2,7 +2,7 @@
 
 ## 1. Câblage
 
-![etape1](images/etape1.jpg)
+![etape1](/profile/images/etape1.jpg)
 
 Ensemble des branchements du drone.
 
