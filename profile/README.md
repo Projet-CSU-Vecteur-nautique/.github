@@ -8,6 +8,10 @@ Ensemble des branchements du drone.
 
 ### 1.1. Branchements des composants sur le Jetson Nano
 
+| Début des branchements |
+:------------------------:
+![](images/etape1_1.jpg)
+
 #### 1.1.1. Ethernet
 
 Connecter les prises Ethernet du Jetson Nano et du Navio2.
@@ -43,10 +47,6 @@ Relier la sortie SBUS du récepteur à l'entrée PPM/SB du Navio.
 #### 1.2.3. GPS
 
 Clipser le GPS à la prise antenne du Navio et le mettre dans son emplacement.
-
-#### 1.2.4. Module d'alimentation
-
-Connecter le module d'alimentation sur la prise `POWER` du Navio.
 
 ### 1.3. Alimentation
 
