@@ -10,23 +10,23 @@ Ensemble des branchements du drone.
 
 ### 1.1. Branchements des composants sur le Jetson Nano
 
-![etape1_1](images/etape1_1.jpg)
+![etape1_1](/profile/images/etape1_1.jpg)
 
 #### 1.1.1. Ethernet
 
-![etape1_1_1](images/etape1_1_1.jpg)
+![etape1_1_1](/profile/images/etape1_1_1.jpg)
 
 Connecter les prises Ethernet du Jetson Nano et du Navio2.
 
 #### 1.1.2. Lidar
 
-![etape1_1_2](images/etape1_1_2.jpg)
+![etape1_1_2](/profile/images/etape1_1_2.jpg)
 
 Brancher le Lidar au Jetson Nano et le poser dans son emplacement.
 
 #### 1.1.3. Module de Télémétrie SiK
 
-![etape1_1_3](images/etape1_1_3.jpg)
+![etape1_1_3](/profile/images/etape1_1_3.jpg)
 
 Brancher le module de télémétrie SiK au Jetson Nano et le poser dans son emplacement.
 
@@ -38,7 +38,7 @@ Brancher le reste des capteurs à disposition et les positionner correctement.
 
 #### 1.2.1. Connecter le récepteur au Navio2
 
-![etape1_2_1](images/etape1_2_1.jpg)
+![etape1_2_1](/profile/images/etape1_2_1.jpg)
 
 Relier la sortie SBUS du récepteur à l'entrée PPM/SB du Navio.
 
@@ -48,7 +48,7 @@ Relier la sortie SBUS du récepteur à l'entrée PPM/SB du Navio.
 
 |  |  |
 :--|--:
-![etape1_2_2a](images/etape1_2_2a.jpg) | ![etape1_2_2b](images/etape1_2_2b.jpg)
+![etape1_2_2a](/profile/images/etape1_2_2a.jpg) | ![etape1_2_2b](/profile/images/etape1_2_2b.jpg)
 
 - Brancher l'ESC du moteur gauche sur la broche 1 du rail.
 
@@ -58,7 +58,7 @@ Relier la sortie SBUS du récepteur à l'entrée PPM/SB du Navio.
 
 #### 1.2.3. GPS
 
-![etape1_2_3](images/etape1_2_3.jpg)
+![etape1_2_3](/profile/images/etape1_2_3.jpg)
 
 Clipser le GPS à la prise antenne du Navio et le mettre dans son emplacement.
 
@@ -68,13 +68,13 @@ Vérifier le branchement de tous les composants, avant de poursuivre.
 
 #### 1.3.1. Jetson Nano
 
-![etape1_3_1](images/etape1_3_1.jpg)
+![etape1_3_1](/profile/images/etape1_3_1.jpg)
 
 Brancher l'un des cables du BEC sur les broches 5V et GND du Jetson Nano (cable rouge sur 5V, cable noir sur GND).
 
 #### 1.3.2. Navio2
 
-![etape1_3_2](images/etape1_3_2.jpg)
+![etape1_3_2](/profile/images/etape1_3_2.jpg)
 
 Connecter le deuxième cable du BEC à la dernière broche (14) du rail du Navio2 (cable rouge sur +, cable noir sur -).
 
@@ -82,7 +82,7 @@ Connecter le deuxième cable du BEC à la dernière broche (14) du rail du Navio
 
 |  |  |  |
 :--|--|--:
-![etape1_3_3a](images/etape1_3_3a.jpg) | ![etape1_3_3b](images/etape1_3_3b.jpg) | ![etape1_3_3c](images/etape1_3_3c.jpg)
+![etape1_3_3a](/profile/images/etape1_3_3a.jpg) | ![etape1_3_3b](/profile/images/etape1_3_3b.jpg) | ![etape1_3_3c](/profile/images/etape1_3_3c.jpg)
 
 - Connecter l'entrée XT90 du cable Y à celle du module d'alimentation
 
@@ -96,19 +96,19 @@ Connecter le deuxième cable du BEC à la dernière broche (14) du rail du Navio
 
 ### 2.1. Mise à zéro
 
-![etape2_1](images/etape2_1.jpg)
+![etape2_1](/profile/images/etape2_1.jpg)
 
 Replacer tous les switchs vers le haut et bien centrer les joysticks.
 
 ### 2.2. Démarrage
 
-![etape2_2](images/etape2_2.jpg)
+![etape2_2](/profile/images/etape2_2.jpg)
 
 Maintenir le bouton d'allumage, suivre les instructions affichées à l'écran.
 
 ### 2.3. Commandes
 
-![etape2_3](images/etape2_3.png)
+![etape2_3](/profile/images/etape2_3.png)
 
 Initialement, la radio est programmée de la façon suivante:
 
