@@ -66,6 +66,8 @@ Clipser le GPS à la prise antenne du Navio et le mettre dans son emplacement.
 
 Vérifier le branchement de tous les composants, avant de poursuivre.
 
+*Avant d'alimenter le drone, bien observer la charge des batteries. Une tension inférieure à 11V necessite une recharge.*
+
 #### 1.3.1. Jetson Nano
 
 ![etape1_3_1](/profile/images/etape1_3_1.jpg)
@@ -130,12 +132,24 @@ Huit canaux de transmission ont été programmé. Ils peuvent être étendus par
 
 7. **CH7: Arm** - Ce canal est commandé par le switch F qui possède deux positions. La position **bas** active l'armement des moteurs, et permet l'opération du drone en mode manuel.e retour au point de départ.
 
-8. **CH8: Arm** - Ce canal est commandé par le switch H qui possède deux positions. La position **bas** provoque l'arrêt des moteurs du drone.
+8. **CH8: Hold** - Ce canal est commandé par le switch H qui possède deux positions. La position **bas** provoque l'arrêt des moteurs du drone.
 
 #### 2.3.2. Modes de vols
 
-La radiocommande dispose d'un switch à six positions représentées par six boutons lumineux. La position 1 (position par défaut) active le mode de vol 1 qui limite la course des canaux 1 et 2 à 30%. La position 6 active le mode de vol 2 qui retire la limitation posée par le mode de vol 1. Les autres positions active le mode de vol 0 qui désactive les canaux 1 et 2 de la radio.
+La radiocommande dispose d'un canal de transmission à six positions représentées par six boutons lumineux. La position 1 (position par défaut) active le mode de vol 1 qui limite la course des canaux 1 et 2 à 30%. La position 6 active le mode de vol 2 qui retire la limitation posée par le mode de vol 1. Les autres positions activent le mode de vol 0 qui désactive les canaux 1 et 2 de la radio.
 
 ## 3. Démarrage du drone
 
-Le drone est maintenant prêt à opérer en mode manuel.
+Dès sa mise en marche, le drone est prêt à être contrôlé en mode manuel, à l'aide de la télécommande. La configuration de ses paramètres et le monitoring des informations de vol s'effectuent à distance, avec une logiciel de contrôle distant, tel que QGroundControl.
+
+## 4. Mise en place de QGroundControl
+
+Les informations données au cours de cette partie sont spécifiques à QGroundControl mais trouvent leur équivalence dans les autres logiciels de contrôle à distance tels que MissionPlanner ou APM Planner. Ces informations sont complémentaires à la [documentation d'ArduPilot](https://ardupilot.org/rover/index.html) et se focalisent sur les principaux paramètres permettant de configuration du drone.
+
+*NB: Certains logiciels ne sont disponibles que sur Windows, ou Linux.*
+
+### 4.1. Installation de QGroundControl
+
+L'installation du logiciel peut s'effectuer en suivant la [documentation officielle](https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html).
+
+Une installation dans un [conteneur logiciel en utilisant Docker](https://fr.wikipedia.org/wiki/Docker_(logiciel)) est également possible. Pour plus d'informations suivre le [tutoriel](https://github.com/Projet-CSU-Vecteur-nautique/QGroundControl) suivant
